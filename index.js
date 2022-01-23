@@ -62,7 +62,7 @@ const owner = setting.OwnerNumber
 const ownerName = setting.OwnerName
 
 //APIKEY
-zeksApi = ["b324162c28e112108ff1887c"]
+zeksApi = ["k16uXLA0glrWpzuz4bK9v3HNA1l"]
 
 //=================( PEMBATASAN )=================//
 
