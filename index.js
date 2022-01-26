@@ -1600,7 +1600,7 @@ case 'attp':
 if (args.length ==0)return (`Text nya mana cuy Contoh\n${prefix + command} Lexxy`)
 attp = args.join(" ")
 sticLoad(from)
-atp = await getBuffer(`https://hardianto.xyz/api/maker/attp?text=${attp}&apikey=hardianto`)
+atp = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURI(q)}`)
 Lexxy.sendMessage(from, atp, sticker)
 break
 case 'nano':
