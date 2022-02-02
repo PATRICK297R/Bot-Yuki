@@ -1431,6 +1431,7 @@ case 'delete':
 case 'del':
 case 'd':
 if (!isGroup) return sticGroup(from)
+if (!isGroupAdmins) return sticAdmin(from)
 Lexxy.deleteMessage(from, { id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true })
 break
 case 'tagall':
