@@ -2065,8 +2065,9 @@ case 'trap':
 case 'megumin':
 case 'awoo':
 case 'shinobu':
-if (!isPremier)return reply(mess.premier)
-sticWait(from)
+
+
+if (!isOwner)return sticOwner(from)
 anu = await fetchJson(`https://waifu.pics/api/nsfw/${command}`)
 buffer = await getBuffer(anu.url)
 Lexxy.sendMessage(from, buffer, image, { quoted: mek, thumbnail: fs.readFileSync('./gambar/fake.jpg')})
