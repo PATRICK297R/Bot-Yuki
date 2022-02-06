@@ -1860,7 +1860,7 @@ if (isBanned)return sticBanned(from)
 if (args.length ==0)return reply('Text nya mana?')
 bp = args.join(" ")
 sticWait(from)
-zks = await getBuffer(`https://api.zeks.me/api/${command}?apikey=apivinz&text=${bp}`)
+zks = await getBuffer(`https://api.zeks.me/api/${command}?apikey=k16uXLA0glrWpzuz4bK9v3HNA1l&text=${bp}`)
 Lexxy.sendMessage(from, zks, image, { quoted: flexx, thumbnail: fs.readFileSync('./gambar/fake.jpg')})
 break
 case 'blackpink':
