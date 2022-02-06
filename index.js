@@ -1840,7 +1840,7 @@ case 'darkjokes':
 if (!isPremier)return reply(mess.premier)
 if (isBanned)return sticBanned(from)
 sticWait(from)
-zks = await fetchJson(`https://api.lolhuman.xyz/api/random/meme?apikey=${humankey}`)
+zks = await fetchJson(`https://api.lolhuman.xyz/api/random/meme?apikey=b324162c28e112108ff1887c`)
 anu = zks.result
 Lexxy.sendMessage(from, anu, image, { quoted: mek, caption: `*©Random ${command}*` })
 break
